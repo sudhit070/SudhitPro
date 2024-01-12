@@ -1,0 +1,443 @@
+#loginmodal .modal-body, #loginmodal .modal-content {
+    padding: 0;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+#loginmodal .modal-content {
+    background-color: transparent;
+}
+
+#loginmodal .modal-body {
+    display: flex;
+}
+
+.leftlog, .rightlog {
+    width: 50%;
+}
+
+.leftlog {
+    position: relative;
+    overflow: hidden;
+}
+
+.leftlog > img {
+    width: 100%;
+}
+
+.leftlog::before {
+    content: "";
+    display: block;
+    width: 250px;
+    height: 98%;
+    background: #4A5328;
+    position: absolute;
+    transform: rotate(23deg);
+    right: -117px;
+    top: 0px;
+}
+
+.rightlog {
+    background: #4A5328;
+    padding: 40px;
+}
+
+.rightlog > form {
+    background-color: #e7dd9f;
+    padding: 35px;
+    border-radius: 25px;
+}
+
+.dropdown-menu[data-bs-popper] {
+    top: 149%;
+}
+
+.dropdown-item {
+    padding: 6px 22px;
+}
+
+.dropdown-menu-dark .dropdown-item.active, .dropdown-menu-dark .dropdown-item:active {
+    color: #0c0c0c;
+    background-color: #e7dd9f;
+}
+
+
+
+/* -----------------------------------------------------------------
+
+    Practices 
+
+------------------------------------------------------------------ */
+
+.bottom.valuet {
+    background-color: #f3f6e9;
+    margin: auto;
+    text-align: center;
+    padding: 100px 0 50px;
+}
+
+.profileimg {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    border: 4px solid #e7dd9f;
+}
+
+.profileimg > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.top.valuet {
+    background: linear-gradient(45deg, #585f33, #2f2f1f);
+    padding: 80px 0;
+}
+
+.valuet.value {
+    width: 280px;
+    position: absolute;
+    background: #fff;
+    padding: 20px 16px;
+    border-radius: 18px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    text-align: center;
+    box-shadow: 0px 5px 10px #2626260a;
+}
+
+.valyetitel {
+    margin-bottom: 0;
+    color: #b7b7b7;
+}
+
+.valuet .amount {
+    color: #3b3d25;
+    font-weight: 600;
+}
+
+.valuet .givechar {
+    display: inline-block;
+    margin-top: 16px;
+    color: #3b3d25;
+}
+
+h3.acoountName {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 26px;
+}
+
+.incrdeccont {
+    background-color: #e7dd9f;
+}
+
+.clock {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+}
+
+.mibox .title {
+    display: block;
+    opacity: 0.5;
+}
+
+.clock_box {
+    background-color: #2F2F1F;
+    max-width: 500px;
+    color: #fff;
+    padding: 22px 30px;
+    border-radius: 18px;
+    box-shadow: 0 14px 18px -8px #0000007d;
+    margin: auto;
+}
+
+.mibox span:first-child {
+    font-size: 40px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.clock_box>.title {
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #ffa724;
+    text-align: end;
+}
+
+.maintitle {
+    color: #2F2F1F;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.maintitle {
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.linkContainer {
+    max-width: 500px;
+    margin: auto;
+    gap: 25px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.linkContainer > a {
+    padding: 10px 35px;
+    border: 1px solid #2F2F1F;
+    color: #2F2F1F;
+}
+
+
+/* admin side */
+.admin {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #2F2F1F;
+}
+
+.slidebar {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 320px;
+    background: #E7DD9F;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.slidebar .logo {
+    margin-bottom: 20px;
+}
+
+.adHeader {
+    background: #E7DD9F;
+    position: relative;
+    margin-left: 290px;
+    margin-top: 10px;
+    height: 70px;
+    padding: 10px;
+    padding-left: 80px;
+    border-radius: 20px;
+    width: calc(100% - 300px);
+}
+
+.admin .content {
+    /* background: #fff; */
+    position: relative;
+    width: calc(100% - 350px);
+    border-radius: 20px;
+    margin-left: 340px;
+    margin-top: 10px;
+    height: calc(100% - 100px);
+}
+
+.admin .content::before, .admin .content::after {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    width: 40px;
+    height: 40px;
+    z-index: 0;
+}
+
+.admin .content::before {
+    background-color: #E7DD9F;
+}
+
+.admin .content::after {
+    background-color: #2F2F1F;
+    border-top-left-radius: 20px;
+}
+
+.mainboxcontent {
+    position: relative;
+    background-color: #ffffff;
+    z-index: 1;
+    border-radius: 10px 20px 20px 20px;
+    padding: 15px;
+    height: 100%;
+}
+
+.skypey {
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.userchat {
+    margin-bottom: 100px;
+    height: 100%;
+    overflow: auto;
+}
+
+.inputtabs {
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+}
+
+.inputtabs > input {
+    box-shadow: 0 5px 10px #dddddd;
+    padding: 15px 70px 15px 15px;
+}
+
+.inputtabs .btn-primary {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    bottom: 0;
+    max-height: 40px;
+    max-width: 60px;
+    border-radius: 10px;
+    padding: 6px 20px;
+}
+
+.skuser .profile {
+    width: 50px;
+    min-width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    overflow: hidden;
+    border: 2px solid #2F2F1F;
+}
+
+.skuser .profile > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.skcontetn .name {
+    font-size: 18px;
+    color: #0c0c0c;
+}
+
+.skcontetn .desc {
+    font-size: 13px;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: #0c0c0c;
+}
+.skuser {
+    display: flex;
+    gap: 10px;
+    padding: 15px 10px;
+    border-radius: 10px;
+    margin-bottom: 6px;
+    /* border-bottom: 1px dashed #2f2f1f; */
+}
+
+.skuser:last-child {
+    border-bottom: 0;
+}
+
+.skuserlist {
+    height: calc(100% - 96px);
+    overflow: auto;
+    margin-top: 40px;
+}
+
+.skuser.active {
+    background-color: #4a53285c;
+}
+
+/* .skuser.active .skcontetn .name, .skuser.active .skcontetn .desc {
+    color: #ffffff;
+} */
+
+.userprofile {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #0c0c0c;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+}
+
+p.no-msg {
+    font-size: 16px;
+    color: #bbb;
+}
+
+.userchat .msg-ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.msg-boxes {
+    overflow: auto;
+}
+
+.userchat {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.msgliitem {
+    margin-bottom: 15px;
+    max-width: 650px;
+    padding: 10px 16px;
+    background: #e7dd9f4f;
+    border-radius: 15px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-right: auto;
+    width: fit-content;
+    position: relative;
+}
+
+.msgliitem .msg-close {
+    position: absolute;
+    right: -5px;
+    top: -9px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 50%;
+    color: #000;
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+.msgliitem:hover .msg-close {
+    opacity: 1;
+}
+
+.msgliitem.user {
+    margin-left: auto;
+    margin-right: 15px;
+    background: #efefed;
+    text-align: end;
+}

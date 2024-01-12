@@ -1,0 +1,7 @@
+export const SET_TECHNOLOGY = 'SET_TECHNOLOGY';
+
+export const WITHDRAW_MONEY = 'WITHDRAW_MONEY';
+export const DEPOSIT_MONEY = 'DEPOSIT_MONEY';
+
+export const INCREASE_TIME = 'INCREASE_TIME';
+export const DECREASE_TIME = 'DECREASE_TIME';
