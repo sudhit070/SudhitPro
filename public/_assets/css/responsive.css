@@ -1,0 +1,287 @@
+@media screen and (min-width: 2560px) {
+    body {
+        max-width: 2560px;
+        margin: auto;
+    }
+}
+
+
+@media screen and (min-width: 1920px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1620px;
+        margin: auto;
+    }
+
+}
+
+@media screen and (max-width: 1919px) {
+
+    h1.inner-her {
+        font-size: 50px;
+    }
+
+    .contact-form {
+        max-width: 800px;
+    }
+
+    .contactimg {
+        max-width: 430px;
+    }
+}
+
+@media screen and (max-width: 1399px) {
+
+    .form-control {
+        padding: 8px 12px;
+    }
+
+    .contact-form {
+        max-width: 660px;
+    }
+
+    .about-me-img {
+        max-width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 1199px) {
+
+    :root {
+        --font-1: 42px;
+    }
+
+    .contactimg {
+        display: none;
+    }
+
+    .contact-form {
+        margin: auto;
+    }
+
+    h1.inner-her {
+        text-align: center;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        gap: 12px
+    }
+
+    .About .about-right {
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-bottom: 20px !important;
+    }
+
+    .about-parent-img {
+        padding: 70px 0;
+    }
+
+    .slider-gallery-carousel.owl-carousel .owl-stage-outer {
+        overflow: hidden !important;
+    }
+
+    .slider-gallery-carousel.owl-carousel .owl-stage-outer {
+        width: 100%;
+    }
+
+    .slider-collection-carousel.owl-carousel .owl-nav {
+        left: unset;
+        right: 2%;
+    }
+
+    .navbar-nav .nav-item > div {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 4px 20px !important;
+        font-size: 16px;
+    }
+
+    a.icon-text  {
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+
+    .section {
+        padding: 60px 0;
+    }
+
+    .Contact .contact-left-box {
+        border-radius: 30px;
+        margin-top: 20px;
+        padding: 50px 30px;
+    }
+
+    .Contact {
+        background: linear-gradient(90deg, #4A5328 31%, #4A5328 0%);
+    }
+
+    .footer-logo {
+        max-width: 180px;
+    }
+
+    footer .container div p {
+        font-size: 16px;
+    }
+
+    footer .icon {
+        width: 40px;
+        height: 40px;
+        font-size: 10px;
+    }
+
+    .about-parent-img::after, .about-parent-img::before {
+        display: none;
+    }
+
+    .About {
+        background: #ffffff;
+    }
+
+    .about-me-img {
+        height: 380px;
+        margin: auto;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 28px;
+    }
+
+    .service-box {
+        border-width: 3px;
+    }
+
+    .About .about-right {
+        padding: 40px;
+        border-radius: 20px;
+        margin-bottom: 50px;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .sketchitem {
+        max-width: 300px;
+    }
+
+    .itemscontainer {
+        gap: 30px;
+    }
+
+    .collecttabs {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .navbar-brand .logo {
+        width: 180px;
+        height: unset;
+    }
+
+    .maintext {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .subtext {
+        font-size: 20px;
+        letter-spacing: 3px;
+        line-height: 30px;
+        margin-bottom: 50px;
+    }
+
+    .section.Hero {
+        min-height: calc(100vh - 50px);
+        padding: 50px 0;
+    }
+
+    .Hero .btn.btn-primary {
+        font-size: 14px;
+    }
+
+    .subtext {
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+
+    .About {
+        margin-top: 0;
+    }
+
+    .about-me-img {
+        height: 300px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .slider-collection-carousel.owl-carousel .owl-nav, .slider-gallery-carousel.owl-carousel .owl-nav {
+        position: relative;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    h2 {
+        margin-bottom: 20px;
+        font-size: 32px;
+    }
+
+    .second-heading::after {
+        height: 3px;
+        top: 51%;
+    }
+
+    .Contact  .icon-cu {
+        font-size: 14px;
+    }
+
+    .Contact  .icon-text {
+        font-size: 16px;
+    }
+
+    .footer-box-1, .footer-box-2 {
+        display: none;
+    }
+
+    .footer-des {
+        position: relative;
+    }
+
+    footer .container {
+        background-color: #101010;
+    }
+
+    footer .container div {
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .footer-box-3 {
+        padding: 10px;
+        border-radius: 0;
+        gap: 20px;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        align-items: start;
+        gap: 6px;
+    }
+    
+}
